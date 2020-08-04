@@ -4,31 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src="js/index.js"></script>
 </head>
 
 <body>
+    
 <nav>
-    <a href="home.html">
-        <img src="Images/Emily Logo Black.png" height="100">   
+     <a href="home.html">
+        <img src="./Images/Emily Logo Black.png" height="80">    
     </a>
-    <ul>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="work.asp">Work</a></li>
-        <li><a href="resume.asp">Resume</a></li>
-    </ul>
+        <ul>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
 </nav>
 
-<div class="intro">
-    <div data-tilt>
-        <h1>Hello!</h1>
+<div class="container-intro">
+    <div class="intro">
+        <div data-tilt>
+            <h1>Hello!</h1>
+        </div>
+        <h2>I’m Emily, a pun loving, matcha drinking, UX designer based in San Francisco. 
+        </h2>
     </div>
-    <h2>I’m Emily, a pun loving, matcha drinking, UX designer based in San Francisco. 
-    </h2>
 </div>
 
+<div class="container-fluid">
+    <div class= "featWork">
+        <h3>Work</h3>
+    
+        <div class="row">
+        <div class="col-sm-8">
+            <h4>Seamless</h4>
+            <h5>A solution to safely connect shoppers and small apparel boutique owners to optimize the buying and selling of products while still maintaining customer satisfaction and sales through personalized virtual appointments. </h5>
+            <a href="seamless.html">View Case Study</a></li>
+        </div>
+
+        <div class="col-sm-4">
+            <img src="./Images/Seamless.png">
+        </div>
+        </div>
+    
+    
+        <div class="row">
+            <div class="col-sm-8">
+            <h4>WomanInc</h4>
+            <h5>A redesign of the WomanInc website with a goal of achieving a design that would help women navigate smoothly through the webpage.</h5>
+            <a href="woman.html">View Case Study</a></li>
+            </div>
+            <div class="col-sm-4">
+            <img src="./Images/WomanInc.png">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!--
+            <div class="col-sm-8">
+            <h4>Potion</h4>
+            <h5>An app designed to educate users on how to create mixed drinks with what they already have on hand.</h5>
+            <a href="potion.html">View Case Study</a></li>
+            </div>
+    
+            <div class="col-sm-4">
+            <img src="./Images/Seamlesscover.png" height="200px">
+            </div>
+        </div>
+        -->
+    </div>
+</div>
 
 <footer>
     <div class ="copyright">
@@ -36,7 +86,7 @@
     </div>
     <ul class="sociallist">
         <li class="socials"><a href="emilyinstagram"><img src="./Images/instagram.png"></a>
-        <li class="socials"><a href="www.linkedin.com/in/emily-lin-1ab828131"> <img src="./Images/linkedin.png"></a></li>
+        <li class="socials"><a href="http://www.linkedin.com/in/emily-lin-1ab828131"> <img src="./Images/linkedin.png"></a></li>
         <li class="socials"><a href="emilyEmail"> <img src="./Images/email.png"></a></li>
         <li class="socials"><a href="emilyPhone"><img src="./Images/phone.png"></a></li>
     </div>
