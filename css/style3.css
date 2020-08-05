@@ -1,13 +1,13 @@
 body {
     font-family:'Roboto', sans-serif;
-    background-color: #FFFCF9;   
+    background-color: #FFFCF9; 
     margin: 0px;
 }
 
 nav {
     display: block;
     width: 100%;
-    background-color: #FFFCF9; 
+    background-color: #FFFCF9;
     height:70px;
 }
 
@@ -42,18 +42,40 @@ li a:visited {
   }
 
 
+.container-intro {
+    padding-top:20px;
+    background-image: url("../Images/Emily\ Logo\ Orange.png");
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-color: #FFFCF9;
+    height: 800px;
+    width:100%;
+}
+
+.intro {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+    position: relative;
+    top:25%;
+}
+
 h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 48px;
+    font-size: 62px;
     color: #303030;
     text-shadow: 1px 1px #303030;
+    margin: 10px 20px 10px 20px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 35px;
     font-weight: 400;
     color: #303030;
+    text-align: left;
+    margin: 10px 20px 10px 20px;
 }
 
 h3 {
@@ -75,30 +97,39 @@ h5 {
 }
 
 .featWork {
-    margin: 40px 20px 50px 20px;
-}
-
-.row {
+    margin-top:60px;
+    margin-bottom:60px;
     justify-content: center;
 }
 
-.col-sm-4 img {
+.col-sm-6 img {
     margin-right: auto;
     margin-left:auto;
     display:block;
     width:400px;
 }
 
-.column-sm-8 {
-    text-align: center;
-    padding-left:20px;
+.row {
+    margin: 20px;
 }
 
-.skills {
-    margin-top:40px;
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color:#303030;
 }
 
-.column-sm-2 {
+a:hover {
+    text-decoration: underline;
+    color: #7F6A8F;
+    font-weight: 600;
+}
+
+p {
+    margin:0;
+}
+
+.column-sm-6 {
     text-align: center;
 }
 
@@ -125,51 +156,3 @@ footer {
 .socials img:hover {
     height: 40px;
 }
-
-/*
-* { border: 1px solid red; }
-*/
-
-@media only screen and (max-width: 1330px) {
-    .column-sm-8 {
-        text-align: center;
-        margin-left:30px;
-    }
-
-    .col-sm-4 img {
-        margin-right: auto;
-        margin-left:auto;
-        display:block;
-        width: 300px;
-    }
-  }
-
-  @media only screen and (max-width: 960px) {
-    .column-sm-8 {
-        text-align: center;
-        margin-left:30px;
-    }
-
-    .col-sm-4 img {
-        margin-right: auto;
-        margin-left:auto;
-        display:block;
-        width: 225px;
-        margin-top:20%;
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
-    .column-sm-8 {
-        text-align: center;
-        margin-left:30px;
-    }
-
-    .col-sm-4 img {
-        margin-right: auto;
-        margin-left:auto;
-        display:block;
-        width: 400px;
-        margin-top:0;
-    }
-  }

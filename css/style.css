@@ -6,24 +6,9 @@ body {
 
 nav {
     display: block;
-    position: fixed;
-    top: 0;
     width: 100%;
-    z-index: 1000;
-    background-color: transparent;
-    height:70px;
-}
-
-.container-intro {
-    padding-top:20px;
-    background-image: url("../Images/Emily\ Logo\ Orange.png");
-    background-position: center;
-    background-size: 65%;
-    background-repeat: no-repeat;
     background-color: #FFFCF9;
-    height: 800px;
-    padding-top:10%;
-    width:100%;
+    height:70px;
 }
 
 ul {
@@ -56,11 +41,24 @@ li a:visited {
     font-size: 20px;
   }
 
+
+.container-intro {
+    padding-top:20px;
+    background-image: url("../Images/logobackground.png");
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-color: #FFFCF9;
+    height: 600px;
+    width:100%;
+}
+
 .intro {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto; 
-    margin-top:5%;
+    position: relative;
+    top:25%;
 }
 
 h1 {
@@ -68,6 +66,7 @@ h1 {
     font-size: 62px;
     color: #303030;
     text-shadow: 1px 1px #303030;
+    margin: 10px 20px 10px 20px;
 }
 
 h2 {
@@ -75,6 +74,8 @@ h2 {
     font-size: 35px;
     font-weight: 400;
     color: #303030;
+    text-align: left;
+    margin: 10px 20px 10px 20px;
 }
 
 h3 {
@@ -95,8 +96,10 @@ h5 {
     color:#303030;
 }
 
+
+
 .featWork {
-    margin-top:90px;
+    margin-top:60px;
     margin-bottom:60px;
     justify-content: center;
 }
@@ -124,23 +127,31 @@ a:hover {
     font-weight: 600;
 }
 
-footer {
-    display:block;
-    align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 p {
     margin:0;
 }
-.copyright {
-    font-size: x-small;
-    float:left;
+
+.col-sm-4 img {
+    margin-right: auto;
+    margin-left:auto;
+    display:block;
 }
 
-.sociallist {
-    float: right;
+.column-sm-8 {
+    text-align: center;
+}
+
+footer {
+    margin: 40px 24px 10px 24px;
+    text-align:center;
+    left: 50%;
+}
+
+.copyright {
+    font-size: xx-small;
+    font-family: 'Roboto', sans-serif;
 }
 
 .socials{
@@ -149,5 +160,9 @@ p {
 }
 
 .socials img {
-    height: 25px;
+    height: 30px;
+}
+
+.socials img:hover {
+    height: 40px;
 }
