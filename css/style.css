@@ -74,7 +74,6 @@ h2 {
     font-size: 35px;
     font-weight: 400;
     color: #303030;
-    text-align: left;
     margin: 10px 20px 10px 20px;
 }
 
@@ -94,10 +93,10 @@ h5 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color:#303030;
+    font-weight: 400;
 }
 
-
-
+/*
 .featWork {
     margin-top:60px;
     margin-bottom:60px;
@@ -142,9 +141,63 @@ p {
 .column-sm-8 {
     text-align: center;
 }
+*/
+
+.feature {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.seamlessIcon {
+    display:flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+.womanIcon {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+.viewCase {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color:#303030;
+}
+
+.viewCase:hover {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color:#7F6A8F;
+    font-weight: 700;
+}
+
+.viewCase {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color:#303030;
+    padding-top:20px;
+}
+
+.viewCase:hover {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color:#7F6A8F;
+    padding-top:20px;
+    font-weight: 700;
+}
 
 footer {
-    margin: 40px 24px 10px 24px;
+    margin: 60px 24px 10px 24px;
     text-align:center;
     left: 50%;
 }
@@ -165,4 +218,32 @@ footer {
 
 .socials img:hover {
     height: 40px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .feature {
+        display:block;
+        text-align:center;
+    }
+    
+    .seamlessIcon {
+        display:flex;
+        flex-direction: column;
+        margin: 0 20px 0 20px;
+    }
+    
+    .womanIcon {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 0 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .seamlessIcon img {
+        width:300px;
+    }
+    .womanIcon img {
+        width:300px;
+    }
 }

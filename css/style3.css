@@ -63,25 +63,22 @@ li a:visited {
 
 h1 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 62px;
+    font-size: 40px;
     color: #303030;
     text-shadow: 1px 1px #303030;
-    margin: 10px 20px 10px 20px;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    color: #303030;
-    text-align: left;
-    margin: 10px 20px 10px 20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color:#303030;
 }
 
 h3 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 32px;
-    color:#303030;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #303030;
 }
 
 h4 {
@@ -113,16 +110,19 @@ h5 {
     margin: 20px;
 }
 
-a {
+.viewCase {
     font-family: 'Roboto', sans-serif;
-    text-decoration: underline;
+    font-style: italic;
+    text-decoration: none;
     color:#303030;
 }
 
-a:hover {
+.viewCase:hover {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
     text-decoration: underline;
-    color: #7F6A8F;
-    font-weight: 600;
+    color:#7F6A8F;
+    font-weight: 700;
 }
 
 p {
@@ -155,4 +155,17 @@ footer {
 
 .socials img:hover {
     height: 40px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .col-sm-6 {
+        margin-top:30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .col-sm-6 img{
+        width:300px;
+    }
 }
