@@ -85,7 +85,7 @@ h5 {
     margin-right: auto;
     margin-left:auto;
     display:block;
-    width:400px;
+    width:435px;
 }
 
 .column-sm-8 {
@@ -98,7 +98,7 @@ h5 {
 }
 
 .column-sm-2 {
-    text-align: center;
+    align-content: center;
 }
 
 footer {
@@ -139,11 +139,11 @@ footer {
         margin-right: auto;
         margin-left:auto;
         display:block;
-        width: 300px;
+        width: 350px;
     }
   }
 
-  @media only screen and (max-width: 960px) {
+  @media only screen and (max-width: 1100px) {
     .column-sm-8 {
         text-align: center;
         margin-left:30px;
@@ -153,7 +153,7 @@ footer {
         margin-right: auto;
         margin-left:auto;
         display:block;
-        width: 225px;
+        width: 245px;
         margin-top:20%;
     }
   }

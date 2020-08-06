@@ -78,18 +78,12 @@ h5 {
     margin-top: 20px;
 }
 
-.insight {
-    display:block;
-    padding:-40px;
-}
-
 .insightList {
     list-style-type: square;
     text-align: left;
     margin:0;
     padding:0;
 }
-
 
 footer {
     margin: 60px 24px 10px 24px;
