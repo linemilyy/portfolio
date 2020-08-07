@@ -45,7 +45,6 @@ h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     color: #303030;
-    text-shadow: 1px 1px #303030;
 }
 
 h2 {
@@ -168,7 +167,7 @@ footer {
         margin-right: auto;
         margin-left:auto;
         display:block;
-        width: 400px;
+        width: 325px;
         margin-top:0;
     }
   }
