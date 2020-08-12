@@ -30,17 +30,17 @@ li a {
 }
 
 li a:hover {
-    color: #7F6A8F;
+    color:#518683;
     font-weight: 600;
     font-size: 22px;
 }
 
 li a:visited {
-    color: #7F6A8F;
+    color:#518683;
     text-decoration: underline;
     font-size: 20px;
-  }
-  
+}
+
 h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
@@ -73,6 +73,10 @@ h5 {
     font-weight:600;
 }
 
+.container-fluid {
+    width:80%;
+}
+
 .deliverables {
     list-style-type: square;
     text-align: left;
@@ -89,11 +93,17 @@ h5 {
     margin-right: auto;
     margin-left:auto;
     display:block;
-    width: 80%;
+    width: 90%;
+    padding:20px;
 }
 
 .centerImg3 {
-    width:26%;
+    width:33%;
+    display: inline-block;
+}
+
+.centerImg3 img {
+    justify-content: center;
 }
 
 .section {
@@ -106,6 +116,7 @@ h5 {
 }
 
 .insightList {
+    list-style-type: square;
     text-align: left;
     margin:0;
     padding:0;
@@ -135,10 +146,91 @@ footer {
     height: 40px;
 }
 
-@media only screen and (max-width: 1060px) {
-
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: scroll;
+    background-color: rgb(0,0,0);
+}
+  
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width:90%;
+    max-height:90%;
+}
+  
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
 
-@media only screen and (max-width: 550px) {
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #FFFCF9;
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #FFFCF9;
+    text-decoration: none;
+    cursor: pointer;
+} 
 
+
+@media only screen and (max-width: 1260px) {    
+    .container-fluid {
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 1010px) {   
+    .centerImg3 {
+        width:30%;
+        margin-left:10px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    nav {
+        display:flex;
+    }
+
+    li {
+        margin-left:-25px;
+        padding-right:20px;
+        float:right;
+    }
+
+    .centerImg3 {
+        width:30%;
+        margin-left:5px;
+    }
 }

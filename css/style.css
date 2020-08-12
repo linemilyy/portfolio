@@ -100,53 +100,6 @@ h5 {
     top:25%;
 }
 
-/*
-.featWork {
-    margin-top:60px;
-    margin-bottom:60px;
-    justify-content: center;
-}
-
-.col-sm-4 img {
-    margin-right: auto;
-    margin-left:auto;
-    display:block;
-    width:400px;
-}
-
-.row {
-    margin: 20px;
-}
-
-a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: underline;
-    color:#303030;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #7F6A8F;
-    font-weight: 600;
-}
-
-
-
-p {
-    margin:0;
-}
-
-.col-sm-4 img {
-    margin-right: auto;
-    margin-left:auto;
-    display:block;
-}
-
-.column-sm-8 {
-    text-align: center;
-}
-*/
-
 .feature {
     display:flex;
     flex-direction: row;
@@ -249,5 +202,16 @@ footer {
     }
     .womanIcon img {
         width:300px;
+}
+    
+@media only screen and (max-width: 445px) {
+     nav {
+        display:flex;
     }
+    
+    li {
+        margin-left:-25px;
+        padding-right:20px;
+        float:right;
+     }
 }
