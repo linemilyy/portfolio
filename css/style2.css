@@ -30,16 +30,17 @@ li a {
 }
 
 li a:hover {
-    color: #7F6A8F;
+    color:#518683;
     font-weight: 600;
     font-size: 22px;
 }
 
 li a:visited {
-    color: #7F6A8F;
+    color:#518683;
     text-decoration: underline;
     font-size: 20px;
-  }
+}
+
 
 h1 {
     font-family: 'Abril Fatface', cursive;

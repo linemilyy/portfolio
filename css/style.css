@@ -31,16 +31,17 @@ li a {
 }
 
 li a:hover {
-    color: #7F6A8F;
+    color:#518683;
     font-weight: 600;
     font-size: 22px;
 }
 
 li a:visited {
-    color: #7F6A8F;
+    color:#518683;
     text-decoration: underline;
     font-size: 20px;
 }
+
 
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -100,6 +101,7 @@ h5 {
     top:25%;
 }
 
+
 .feature {
     display:flex;
     flex-direction: row;
@@ -122,6 +124,7 @@ h5 {
 }
 
 .viewCase {
+    padding-top:20px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     text-decoration: none;
@@ -132,24 +135,16 @@ h5 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     text-decoration: underline;
-    color:#7F6A8F;
+    color:#518683;
     font-weight: 700;
 }
 
-.viewCase {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    text-decoration: none;
-    color:#303030;
-    padding-top:20px;
-}
 
-.viewCase:hover {
+.viewCase:visited {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     text-decoration: underline;
-    color:#7F6A8F;
-    padding-top:20px;
+    color:#518683;
     font-weight: 700;
 }
 
@@ -194,6 +189,12 @@ footer {
         flex-direction: column;
         margin: 0 20px 0 20px;
     }
+
+    .viewCase {
+        padding-top:10px;
+        padding-bottom:20px;
+    }
+
 }
 
 @media only screen and (max-width: 550px) {
