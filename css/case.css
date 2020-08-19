@@ -73,6 +73,14 @@ h5 {
     font-weight:600;
 }
 
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+}
+
 .container-fluid {
     width:80%;
 }
