@@ -22,6 +22,7 @@ li {
     list-style-type: none;
     padding: 20px;
     font-size: 20px;
+    font-weight:500;
 }
 
 li a {
@@ -31,13 +32,13 @@ li a {
 
 li a:hover {
     color:#518683;
-    font-weight: 600;
-    font-size: 22px;
+    transition:0.3s;
+    text-decoration: none;
+    font-size: 19px;
 }
 
 li a:visited {
-    color:#518683;
-    text-decoration: underline;
+    color:#355654;
     font-size: 20px;
 }
 
@@ -45,19 +46,22 @@ h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     color: #303030;
+    letter-spacing: 1px;
 }
 
 h2 {
     font-family: 'Abril Fatface', cursive;
     font-size: 24px;
     color:#303030;
+    letter-spacing: 0.5px;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #303030;
+    line-height: 22px;
 }
 
 h4 {
@@ -68,15 +72,15 @@ h4 {
 
 h5 {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color:#303030;
-    font-weight:600;
+    padding-top:12px;
 }
 
 h6 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #303030;
 }
@@ -107,17 +111,48 @@ h6 {
     color: #FFFCF9;
     background-color: #518683;
     padding:15px;
+    transition: 0.3s;
 }
 
 .clickNext:hover{
     color: #FFFCF9;
-    font-weight:700;
+    font-size: 17.5px;
+    background-color: #355654;
+    text-decoration: none;
+}
+
+.scrollUp {
+    margin-top:60px;
+}
+
+.fa-chevron-up {
+    color: #518683;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-left:49%;
+}
+
+.fa-chevron-up:hover {
+    color: #355654;
+    font-size: 30px;
 }
 
 footer {
-    margin: 60px 24px 10px 24px;
+    margin: 20px 24px 10px 24px;
     text-align:center;
     left: 50%;
+}
+
+.fa-instagram-square, .fa-linkedin, .fa-envelope-square, .fa-phone-square-alt{
+    color: #518683;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-right:10px;
+}
+
+.fa-instagram-square:hover, .fa-linkedin:hover,  .fa-envelope-square:hover, .fa-phone-square-alt:hover {
+    color: #355654;
+    font-size: 30px; 
 }
 
 .copyright {
@@ -208,6 +243,8 @@ footer {
         width:30%;
         margin-left:10px;
     }
+
+
 }
 
 @media only screen and (max-width: 745px) {   

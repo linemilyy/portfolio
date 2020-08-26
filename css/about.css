@@ -7,7 +7,7 @@ body {
 nav {
     display: block;
     width: 100%;
-    background-color: #FFFCF9; 
+    background-color: #FFFCF9;
     height:70px;
 }
 
@@ -22,6 +22,7 @@ li {
     list-style-type: none;
     padding: 20px;
     font-size: 20px;
+    font-weight:500;
 }
 
 li a {
@@ -31,13 +32,13 @@ li a {
 
 li a:hover {
     color:#518683;
-    font-weight: 600;
-    font-size: 22px;
+    transition:0.3s;
+    text-decoration: none;
+    font-size: 19px;
 }
 
 li a:visited {
-    color:#518683;
-    text-decoration: underline;
+    color:#355654;
     font-size: 20px;
 }
 
@@ -46,19 +47,22 @@ h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     color: #303030;
+    letter-spacing: 1px;
 }
 
 h2 {
     font-family: 'Abril Fatface', cursive;
     font-size: 24px;
     color:#303030;
+    letter-spacing: 0.5px;
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #303030;
+    line-height: 22px;
 }
 
 h4 {
@@ -83,6 +87,10 @@ h5 {
 
 .row {
     justify-content: center;
+}
+
+.col-sm-2 {
+    text-align: right;
 }
 
 .col-sm-4 img {
@@ -112,22 +120,23 @@ h5 {
     text-decoration: none;
     color:#303030;
     font-size: 18px;
+    font-weight:500;
 }
 
 .artLink:hover {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    text-decoration: underline;
-    color:#518683;
-    font-weight: 700;
+    text-decoration: none;
+    color: #518683;
+    font-size:17.5px;
 }
 
 .artLink:visited {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    text-decoration: underline;
-    color:#518683;
-    font-weight: 700;
+    text-decoration: none;
+    color: #355654;
+    font-size: 18px;
 }
 
 .obsessions {
@@ -143,10 +152,38 @@ h5 {
     left: 50%;
 }
 
+.scrollUp {
+    margin-top:60px;
+}
+
+.fa-chevron-up {
+    color: #518683;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-left:49%;
+}
+
+.fa-chevron-up:hover {
+    color: #355654;
+    font-size: 30px;
+}
+
 footer {
-    margin: 40px 24px 10px 24px;
+    margin: 20px 24px 10px 24px;
     text-align:center;
     left: 50%;
+}
+
+.fa-instagram-square, .fa-linkedin, .fa-envelope-square, .fa-phone-square-alt{
+    color: #518683;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-right:10px;
+}
+
+.fa-instagram-square:hover, .fa-linkedin:hover,  .fa-envelope-square:hover, .fa-phone-square-alt:hover {
+    color: #355654;
+    font-size: 30px; 
 }
 
 .copyright {
@@ -204,6 +241,7 @@ footer {
   }
 
   @media only screen and (max-width: 975px) {
+
     .column-sm-8 {
         text-align: center;
         margin-left:30px;
@@ -220,6 +258,10 @@ footer {
   }
 
   @media only screen and (max-width: 766px) {
+    .col-sm-2 {
+        text-align:left;
+    }
+
     .column-sm-8 {
         text-align: center;
         margin-left:30px;
