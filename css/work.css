@@ -76,6 +76,11 @@ h5 {
     font-size: 18px;
     color:#303030;
 }
+
+.container-fluid {
+    width:80%;
+}
+
 .container-intro {
     padding-top:20px;
     background-image: url("../Images/Emily\ Logo\ Orange.png");
@@ -111,7 +116,6 @@ h5 {
 
 .column-sm-8 {
     text-align: center;
-
 }
 
 .row {
@@ -150,13 +154,13 @@ p {
 
 .scrollUp {
     margin-top:60px;
+    text-align: center;
 }
 
 .fa-chevron-up {
     color: #518683;
     font-size: 32px;
     transition: 0.3s;
-    margin-left:49%;
 }
 
 .fa-chevron-up:hover {

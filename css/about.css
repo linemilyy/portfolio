@@ -42,6 +42,9 @@ li a:visited {
     font-size: 20px;
 }
 
+a:hover {
+    cursor: pointer;
+}
 
 h1 {
     font-family: 'Abril Fatface', cursive;
@@ -128,7 +131,7 @@ h5 {
     font-style: italic;
     text-decoration: none;
     color: #518683;
-    font-size:17.5px;
+    font-size:17px;
 }
 
 .artLink:visited {
@@ -154,13 +157,13 @@ h5 {
 
 .scrollUp {
     margin-top:60px;
+    text-align: center;
 }
 
 .fa-chevron-up {
     color: #518683;
     font-size: 32px;
     transition: 0.3s;
-    margin-left:49%;
 }
 
 .fa-chevron-up:hover {
@@ -208,6 +211,21 @@ footer {
 * { border: 1px solid red; }
 */
 
+  @media only screen and (max-width: 1500px) {    
+
+    .column-sm-8 {
+        text-align: center;
+        margin-left:30px;
+    }
+
+    .col-sm-4 img {
+        margin-right: auto;
+        margin-left:auto;
+        display:block;
+        width: 300px;
+    }
+  }
+
 @media only screen and (max-width: 1450px) {
     .column-sm-8 {
         text-align: center;
@@ -220,23 +238,13 @@ footer {
         display:block;
         width: 325px;
     }
-  }
-
-  @media only screen and (max-width: 1500px) {    
-    .container-fluid {
-        width:100%;
-    }
-
-    .column-sm-8 {
-        text-align: center;
-        margin-left:30px;
-    }
 
     .col-sm-4 img {
         margin-right: auto;
         margin-left:auto;
         display:block;
-        width: 300px;
+        width: 250px;
+        margin-top:20px;
     }
   }
 
@@ -252,7 +260,7 @@ footer {
         margin-right: auto;
         margin-left:auto;
         display:block;
-        width: 235px;
+        width: 200px;
         margin-top:20px;
     }
   }
